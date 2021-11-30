@@ -2,9 +2,11 @@
   "name": "lakderanaback",
   "version": "1.0.0",
   "description": "MSS Group Project Backend",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app",
+    "dev":"nodemon lakderanaback"
   },
   "author": "",
   "license": "ISC",
